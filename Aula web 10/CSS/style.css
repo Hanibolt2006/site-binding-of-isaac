@@ -1,0 +1,126 @@
+body{
+    margin: 0;   
+    font-family: tahoma;
+}
+
+#conteudo{
+    width: 1000px; /*largura*/
+    height: auto; /*altura*/
+    margin: 0 auto; /*centraliza o total*/
+}
+
+#topo{
+    height: 75px;
+    margin: 30px 0;
+}
+
+#logo{
+    float: left;
+}
+
+#menu{
+    float: right;
+    margin-top: 30px;
+}
+
+#menu a{ /*formatando os links do id menu*/
+    color: #670001;
+    text-decoration: none; /*retira o sublinhado padrão dos links*/
+    margin-left: 50px;
+}
+
+#menu a:hover{
+    text-decoration: underline;
+}
+
+#cabeçalho{
+
+}
+
+#cabeçalho img{
+    height: 260px;
+    width: 300px;
+}
+
+.coluna{
+    width: 220px;
+    float: left;
+    margin: 30px 0;
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+.coluna h2{
+    color: white;
+    margin: 0;
+    font-size: 20px;
+}
+
+.coluna p{
+    color: white;
+}
+
+.coluna a{
+    color: white;
+}
+
+#col4{
+    margin-right: 0;   
+}
+
+#rodape{
+    font-size: 30px;
+    clear: both;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 30px;
+}
+#rodape2{
+    font-size: 30px;
+    clear: both;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 30px;
+
+
+}
+#rodape3{
+    font-size: 30px;
+    clear: both;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 30px;
+
+
+}
+#tboi {
+    width:1000px ;
+    height:1000px ;
+}
+#titlle {
+    color: whitesmoke;
+    width:150px ;
+    height:150px ;
+    margin-bottom: 30px;
+    font-family:sans-serif;
+}
+.btn-group .button {
+  background-color: #4CAF50; /* Green */
+  border: 1px solid green;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+}
+
+.btn-group .button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #3e8e41;
+}
